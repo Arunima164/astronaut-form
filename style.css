@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("https://i1.faceprep.in/ProGrad/sky-moon-bg.png");
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+}
+#image1{
+    height: 500px;
+    top: 5%;
+    left: 5%;
+}
+#image2{
+    height: 425px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+form{
+   background-color: white;
+   position: absolute;
+   top: 15%;
+   left: 65%;
+   width: 300px;
+   padding: 0px 75px;
+   border-radius: 5px;
+}
+.block{
+    display: block;
+}
+label{
+    margin: 20px 0px 4px 0px;
+    font-size: 16px;
+}
+select,input[type="number"],input[type="email"]{
+    width: 300px;
+    height: 40px;
+    padding: 0px 5px;
+    }
+    .rent-label{
+        margin-right: 10px;
+    }
+    #button{
+        display: block;
+        background-color: #ec7920;
+        padding: 15px 20px;
+        margin: 40px auto;
+    }
